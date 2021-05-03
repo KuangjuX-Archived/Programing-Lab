@@ -49,10 +49,7 @@ int main() {
         add_edge(&G, col, row);
     }
 
-    // vector<int> status;
-    // int* status = new int[1000];
     vector<int> status;
-    // status[0] = 1;
     DFS(&G, 1, m, status);
     return 0;
 
